@@ -14,8 +14,8 @@ function Book({ title, author }) {
 }
 
 Book.prototypes = {
-    title: Proptypes.string.isRequired,
-    author: Proptypes.string.isRequired,
+  title: Proptypes.string.isRequired,
+  author: Proptypes.string.isRequired,
 };
 
-export default book;
+export default Book;
