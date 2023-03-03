@@ -1,4 +1,6 @@
 import React from 'react';
+import Book from '../components/Book';
+import Form from '../components/Form';
 
 const bookArr = [
   {
@@ -20,10 +22,11 @@ const bookArr = [
 
 const Books = () => (
   <>
-    {bookArr.map((book) => (
-      <div key={book.id}>
-        <h2>{book.title}</h2>
-        <p>{book.author}</p>
+    {bookArr.map((item) => (
+      <div key={item.id}>
+        <h2>{item.title}</h2>
+        <p>{item.author}</p>
+        <Form />
       </div>
     ))}
   </>
