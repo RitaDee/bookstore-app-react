@@ -1,11 +1,11 @@
 import React from 'react';
-import Proptypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 function Book({ title, author }) {
   return (
     <div>
-      <h1>title</h1>
-      <p>author</p>
+      <h1>{title}</h1>
+      <p>{author}</p>
       <div>
         <button type="button">Remove</button>
       </div>
@@ -13,9 +13,9 @@ function Book({ title, author }) {
   );
 }
 
-Book.prototypes = {
-  title: Proptypes.string.isRequired,
-  author: Proptypes.string.isRequired,
+Book.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
 };
 
 export default Book;
