@@ -1,7 +1,7 @@
 import React from 'react';
 import Proptypes from 'prop-types';
 
-function book({ title, author }) {
+function Book({ title, author }) {
   return (
     <div>
       <h1>title</h1>
@@ -12,5 +12,10 @@ function book({ title, author }) {
     </div>
   );
 }
+
+Book.prototypes = {
+    title: Proptypes.string.isRequired,
+    author: Proptypes.string.isRequired,
+};
 
 export default book;
