@@ -23,12 +23,9 @@ const bookArr = [
 const Books = () => (
   <>
     {bookArr.map((item) => (
-      <div key={item.id}>
-        <h2>{item.title}</h2>
-        <p>{item.author}</p>
-        <Form />
-      </div>
+      <Book key={item.id} title={item.title} author={item.author} />
     ))}
+    <Form />
   </>
 );
 
