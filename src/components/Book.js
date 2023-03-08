@@ -7,13 +7,13 @@ import { addBook, removeBook } from '../redux/Books/booksSlice';
 import { checkStatus } from '../redux/categories/categoriesSlice';
 
 function Book({
-  id, title, author, status,
+  id, title, author,
 }) {
   const dispatch = useDispatch();
 
   const handleAddBook = () => {
     dispatch(addBook({
-      id, title, author, status: 'unread',
+      id, title, author,
     }));
   };
 
@@ -29,10 +29,6 @@ function Book({
     <div>
       <h1>{title}</h1>
       <p>{author}</p>
-      <p>
-        Status:
-        {status}
-      </p>
       <div>
         <button type="button" onClick={handleAddBook}>Add Book</button>
         <button type="button" onClick={handleRemoveBook}>Remove</button>
@@ -43,10 +39,9 @@ function Book({
 }
 
 Book.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  status: PropTypes.string.isRequired,
 };
 
 export default Book;

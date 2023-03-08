@@ -1,7 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-
 import Books from './routes/Books';
 import Categories from './routes/Categories';
 
