@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/Books/booksSlice';
 
 function Form() {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
-  const books = useSelector((state) => state.books);
-  console.log(books.length);
 
   const handleAddBook = () => {
     dispatch(addBook({
-      item_id: `item${books.length + 1}`,
+      item_id: `${Math.random() * 100}`,
       title,
       author,
     }));
