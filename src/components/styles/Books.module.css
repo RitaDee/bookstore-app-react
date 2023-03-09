@@ -12,3 +12,8 @@
 .book {
     width: 50%;
 }
+
+.category {
+    color: #878787;
+    font-weight: 600;
+}
