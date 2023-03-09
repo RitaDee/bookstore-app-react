@@ -19,9 +19,7 @@ function Book({
       <h1>{title}</h1>
       <p>{author}</p>
       <div>
-        <button type="button">Comments</button>
         <button type="button" onClick={handleRemoveBook}>Remove</button>
-        <button type="button">Edit</button>
       </div>
     </div>
   );

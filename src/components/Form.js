@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/Books/booksSlice';
 
 function Form() {
@@ -8,11 +9,13 @@ function Form() {
   const dispatch = useDispatch();
 
   const handleAddBook = () => {
-    dispatch(addBook({
-      item_id: `${Math.random() * 100}`,
+    const newBook = {
+      item_id: uuidv4(),
       title,
       author,
-    }));
+      category: 'Action',
+    };
+    dispatch(addBook(newBook));
     setTitle('');
     setAuthor('');
   };
