@@ -29,8 +29,10 @@ ul {
     align-items: center;
 }
 
-.l {
+.list {
     list-style-type: none;
     font-size: 0.8rem;
     letter-spacing: 0.2rem;
 }
+
+
