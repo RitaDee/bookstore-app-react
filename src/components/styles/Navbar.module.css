@@ -28,3 +28,9 @@ ul {
     gap: 2.5rem;
     align-items: center;
 }
+
+.l {
+    list-style-type: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
