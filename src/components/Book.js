@@ -15,7 +15,7 @@ function Book({
 
   return (
     <section className={styles.book_container}>
-      <div>
+      <div style={styles.book_cl}>
         <p>{title}</p>
         <p>{author}</p>
         <div>
