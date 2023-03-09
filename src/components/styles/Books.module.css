@@ -17,3 +17,11 @@
     color: #878787;
     font-weight: 600;
 }
+
+.title {
+    margin-top: 0.188rem;
+    font-size: 1.375rem;
+    letter-spacing: -0.2px;
+    color: #121212;
+    font-weight: 700;
+}
