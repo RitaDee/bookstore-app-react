@@ -14,7 +14,7 @@ function Book({
 
   return (
     <div>
-      <h1>{title}</h1>
+      <p>{title}</p>
       <p>{author}</p>
       <div>
         <button type="button">Comments</button>
