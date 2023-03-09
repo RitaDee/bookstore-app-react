@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/Books/booksSlice';
+import styles from './styles/Books.module.css';
 
 function Book({
   id, title, author,
@@ -13,15 +14,17 @@ function Book({
   };
 
   return (
-    <div>
-      <p>{title}</p>
-      <p>{author}</p>
+    <section className={styles.book_container}>
       <div>
-        <button type="button">Comments</button>
-        <button type="button" onClick={handleRemoveBook}>Remove</button>
-        <button type="button">Edit</button>
+        <p>{title}</p>
+        <p>{author}</p>
+        <div>
+          <button type="button">Comments</button>
+          <button type="button" onClick={handleRemoveBook}>Remove</button>
+          <button type="button">Edit</button>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
