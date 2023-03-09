@@ -16,7 +16,7 @@ function Book({
   return (
     <li className={styles.book_container}>
       <div className={styles.book}>
-        <p>{category}</p>
+        <p className={styles.category}>{category}</p>
         <h2>{title}</h2>
         <p>{author}</p>
         <div>
