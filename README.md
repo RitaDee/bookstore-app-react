@@ -109,13 +109,6 @@ To get a local copy up and running, follow these steps.
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -141,13 +134,6 @@ To run tests, run the following command:
 - Run npx eslint . --fix to fix JS errors if found
 - Run npx stylelint "**/*.{css,scss}" for CSS check
 - Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -157,22 +143,13 @@ You can deploy this project using:
 Github pages
 
 <p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 
- 👤**Chukwuemeka Ochuba**
+ 👤**Rita Daniel**
 
 - GitHub: [@RitaDee](https://github.com/RitaDee)
 - Twitter: [@durdana_dee](https://twitter.com/durdana_dee)
