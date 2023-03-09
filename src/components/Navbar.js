@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './styles/Navbar.module.css';
 
 const Navbar = () => (
-  <div>
+  <div className={styles.nav_container}>
     <nav>
       <h1>Bookstore CMS</h1>
 
