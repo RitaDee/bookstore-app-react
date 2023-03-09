@@ -17,7 +17,7 @@ function Book({
     <li className={styles.book_container}>
       <div className={styles.book}>
         <p className={styles.category}>{category}</p>
-        <h2>{title}</h2>
+        <h2 className={styles.title}>{title}</h2>
         <p>{author}</p>
         <div>
           <button type="button">Comments</button>
