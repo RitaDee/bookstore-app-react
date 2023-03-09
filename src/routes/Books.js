@@ -13,8 +13,13 @@ const Books = () => {
   return (
     <>
       {booksArray.map((item) => (
-        <div key={item.id}>
-          <Book id={item.id} title={item.title} author={item.author} />
+        <div key={item.item_id}>
+          <Book
+            id={item.item_id}
+            title={item.title}
+            author={item.author}
+            category={item.category}
+          />
         </div>
 
       ))}

@@ -11,7 +11,7 @@ export const fetchBook = createAsyncThunk('books/fetchBook', async () => {
   const data = await response.json();
   const books = [
     Object.keys(data).map((key) => ({
-      id: key,
+      item_id: key,
       ...data[key][0],
     })),
   ];

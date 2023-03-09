@@ -5,7 +5,7 @@ import { removeBook } from '../redux/Books/booksSlice';
 import styles from './styles/Books.module.css';
 
 function Book({
-  id, title, author,
+  category, id, title, author,
 }) {
   const dispatch = useDispatch();
 
@@ -14,9 +14,10 @@ function Book({
   };
 
   return (
-    <section className={styles.book_container}>
-      <div style={styles.book_cl}>
-        <p>{title}</p>
+    <li className={styles.book_container}>
+      <div className={styles.book}>
+        <p>{category}</p>
+        <h2>{title}</h2>
         <p>{author}</p>
         <div>
           <button type="button">Comments</button>
@@ -24,11 +25,12 @@ function Book({
           <button type="button">Edit</button>
         </div>
       </div>
-    </section>
+    </li>
   );
 }
 
 Book.propTypes = {
+  category: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
