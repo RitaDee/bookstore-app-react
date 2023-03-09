@@ -14,7 +14,7 @@ function Form() {
       title,
       author,
       category: 'Action',
-    }
+    };
     dispatch(addBook(newBook));
     setTitle('');
     setAuthor('');
