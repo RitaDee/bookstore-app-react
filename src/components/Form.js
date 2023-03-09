@@ -9,7 +9,6 @@ function Form() {
 
   const handleAddBook = () => {
     dispatch(addBook({
-      id: Math.floor(Math.random() * 100), // generate a random id for the book
       title,
       author,
     }));
