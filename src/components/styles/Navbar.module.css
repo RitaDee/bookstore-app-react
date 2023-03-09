@@ -35,4 +35,28 @@ ul {
     letter-spacing: 0.2rem;
 }
 
+.link {
+    text-decoration: none;
+    opacity: 0.5;
+    color: #3a3a3b;
+}
 
+.link:active {
+    opacity: 1;
+    color: #121212;
+}
+
+.link:visited {
+    opacity: 1;
+    color: #121212;
+}
+
+.link:focus {
+    opacity: 1;
+    color: #121212;
+}
+
+.link:hover {
+    opacity: 1;
+    color: #121212;
+}
