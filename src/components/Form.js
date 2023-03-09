@@ -1,30 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/Books/booksSlice';
 
-function Form({
-  id, title, author,
-}) {
+function Form() {
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
 
   const handleAddBook = () => {
     dispatch(addBook({
-      id, title, author,
+      id: Math.floor(Math.random() * 100), // generate a random id for the book
+      title,
+      author,
     }));
-
-    return (
-
-      <div>
-        <h1>{title}</h1>
-        <form>
-          <h1>ADD NEW BOOK</h1>
-          <input type="text" placeholder="Book title" required />
-          <input type="text" placeholder="Author" required />
-          <button type="button" onClick={handleAddBook}>Add Book</button>
-        </form>
-      </div>
-    );
+    setTitle('');
+    setAuthor('');
   };
+
+  return (
+    <div>
+      <h1>ADD NEW BOOK</h1>
+      <form>
+        <input type="text" placeholder="Book title" value={title} onChange={(e) => setTitle(e.target.value)} required />
+        <input type="text" placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
+        <button type="button" onClick={handleAddBook}>Add Book</button>
+      </form>
+    </div>
+  );
 }
 
 export default Form;
