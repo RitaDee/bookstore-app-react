@@ -60,3 +60,28 @@ ul {
     opacity: 1;
     color: #121212;
 }
+
+.user {
+    background-color: #fff;
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.user_min {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #c4c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user img {
+    width: 35px;
+    height: 35px;
+    font-size: 1.6rem;
+    color: #2c94f0;
+}
