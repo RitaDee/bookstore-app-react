@@ -62,3 +62,33 @@
         padding: 0 0.8rem;
         color: #4386bf;
 }
+
+.book_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.percent_left {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #d6d3d3c2;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+
+.circle_left {
+    width: 84px;
+    height: 84px;
+    position: relative;
+}
+
+.circle_outer {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 
+    6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px -10px -1px rgba(255, 255, 255, 0.7);
+}

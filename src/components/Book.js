@@ -25,6 +25,17 @@ function Book({
           <button className={styles.btn} type="button">Edit</button>
         </div>
       </div>
+      <div className={styles.book_right}>
+        <div className={styles.percent_left}>
+          <di className={styles.circle_left}>
+            <div className={style.circle_outer}>
+              
+            </div>
+          </di>
+        </div>
+      </div>
+
+      
     </li>
   );
 }
