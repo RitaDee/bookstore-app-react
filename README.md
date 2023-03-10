@@ -89,7 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- > Add a link to your deployed project. -->
+[Live Demo](https://lovely-mandazi-668f0e.netlify.app/)
 
 - Live demo link will appear when ready
 
