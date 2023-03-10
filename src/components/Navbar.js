@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './styles/Navbar.module.css';
+import user from '../images/user.svg';
 
 const Navbar = () => (
   <div className={styles.nav_container}>
@@ -15,8 +16,13 @@ const Navbar = () => (
         <li className={styles.list}>
           <Link className={styles.link} to="/categories">CATEGORIES</Link>
         </li>
-
       </ul>
+
+      <div className={styles.user}>
+        <div className={styles.user_min}>
+          <img src={user} alt="user-icon" />
+        </div>
+      </div>
     </nav>
   </div>
 );

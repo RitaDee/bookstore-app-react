@@ -66,4 +66,88 @@
   color: #4386bf;
 }
 
- 
+.contain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 10rem;
+  /* width: 68%; */
+}
+
+.Oval {
+  width: 4.2rem;
+  height: 4.25rem;
+  border: 10px solid #379cf6;
+  border-left-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(140deg);
+}
+
+.chapterContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  padding-top: 1.5rem;
+  margin-right: 9rem;
+}
+
+.chapterBtn {
+  background-color: #0290ff;
+  width: 11.5rem;
+  height: 2.063rem;
+  padding: 0.438rem 1.188rem 0 1.375rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.update {
+  color: #fff;
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.bar {
+  height: 4.375rem;
+  margin-top: 2rem;
+  border: 1px solid #e8e8e8;
+}
+
+.completion {
+  font-size: 2.5rem;
+}
+
+.completed {
+  font-size: 1rem;
+}
+
+.chapter {
+  width: 13.25rem;
+  height: 1.313rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.chapterone {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8d8181;
+}
