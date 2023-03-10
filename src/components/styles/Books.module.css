@@ -25,3 +25,10 @@
     color: #121212;
     font-weight: 700;
 }
+
+.author {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #4386b4;
+    font-family: 'Roboto Slab', serif;
+}
