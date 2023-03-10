@@ -1,1 +1,7 @@
-/* Styling */
+.main_cont {
+    background-color: #ebe7e7;
+    width: 100%;
+    padding: 2.8rem;
+    border: 2px;
+}
+

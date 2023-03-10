@@ -25,8 +25,8 @@ function Form() {
     <div>
       <h2>ADD NEW BOOK</h2>
       <form className={styles.form_container}>
-        <input type="text" placeholder="Book title" value={title} onChange={(e) => setTitle(e.target.value)} required />
-        <input type="text" placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
+        <input className={styles.input_1} type="text" placeholder="Book title" value={title} onChange={(e) => setTitle(e.target.value)} required />
+        <input className={styles.input_2} type="text" placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
         <button className={styles.addBook_btn} type="button" onClick={handleAddBook}>Add Book</button>
       </form>
     </div>
