@@ -27,11 +27,39 @@ function Book({
       </div>
       <div className={styles.book_right}>
         <div className={styles.percent_left}>
-          <di className={styles.circle_left}>
+          <div className={styles.circle_left}>
             <div className={styles.circle_outer}>
-              <div className={styles.circle_inner}></div>
+              <div className={styles.circle_inner} />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="160px"
+                height="160px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stopColor="#e91e63" />
+                    <stop offset="100%" stopColor="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle cx="42" cy="50" r="36" strokeLinecap="round" />
+              </svg>
             </div>
-          </di>
+            <div className={styles.circle_right}>
+              <p className={styles.pers}>77%</p>
+              <p className={styles.comp}>Completed</p>
+            </div>
+          </div>
+          <div className={styles.perc_right}>
+            <div className={styles.perc_right_in}>
+              <h4>CURRENT CHAPTER</h4>
+              <p>Chapter 10</p>
+              <div>
+                <button type="button">UPDATE PROGRESS</button>
+                {' '}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </li>
