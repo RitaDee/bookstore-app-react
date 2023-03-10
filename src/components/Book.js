@@ -25,41 +25,22 @@ function Book({
           <button className={styles.btn} type="button">Edit</button>
         </div>
       </div>
-      <div className={styles.book_right}>
-        <div className={styles.percent_left}>
-          <div className={styles.circle_left}>
-            <div className={styles.circle_outer}>
-              <div className={styles.circle_inner} />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                version="1.1"
-                width="160px"
-                height="160px"
-              >
-                <defs>
-                  <linearGradient id="GradientColor">
-                    <stop offset="0%" stopColor="#e91e63" />
-                    <stop offset="100%" stopColor="#673ab7" />
-                  </linearGradient>
-                </defs>
-                <circle cx="42" cy="50" r="36" strokeLinecap="round" />
-              </svg>
-            </div>
-            <div className={styles.circle_right}>
-              <p className={styles.pers}>77%</p>
-              <p className={styles.comp}>Completed</p>
-            </div>
-          </div>
-          <div className={styles.perc_right}>
-            <div className={styles.perc_right_in}>
-              <h4>CURRENT CHAPTER</h4>
-              <p>Chapter 10</p>
-              <div>
-                <button type="button">UPDATE PROGRESS</button>
-                {' '}
-              </div>
-            </div>
-          </div>
+      <div className={styles.contain}>
+        <div className={styles.ovalContainer}>
+          <div className={styles.Oval} />
+        </div>
+        <div>
+          <div className={styles.completion}>98%</div>
+          <div className={styles.completed}>completed</div>
+        </div>
+      </div>
+
+      <div className={styles.bar} />
+      <div className={styles.chapterContainer}>
+        <div className={styles.chapterone}>CURRENT CHAPTER</div>
+        <div className={styles.chapter}>Chapter Twelve</div>
+        <div className={styles.chapterBtn}>
+          <span className={styles.update}>UPDATE PROGRESS</span>
         </div>
       </div>
     </li>

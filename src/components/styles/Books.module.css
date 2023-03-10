@@ -1,109 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .book_container {
-    width: 100%;
-    display: flex;
-    padding: 1.5rem;
-    margin-bottom: 0.3rem;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.7);
-    border: 1px solid #e4e2e2c2;
+  width: 100%;
+  display: flex;
+  padding: 1.5rem;
+  margin-bottom: 0.3rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid #e4e2e2c2;
 }
 
 .book {
-    width: 50%;
+  width: 50%;
 }
 
 .category {
-    color: #878787;
-    font-weight: 600;
+  color: #878787;
+  font-weight: 600;
 }
 
 .title {
-    margin-top: 0.188rem;
-    font-size: 1.375rem;
-    letter-spacing: -0.2px;
-    color: #121212;
-    font-weight: 700;
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  color: #121212;
+  font-weight: 700;
 }
 
 .author {
-    font-size: 0.875rem;
-    font-weight: 300;
-    color: #4386b4;
-    font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386b4;
+  font-family: "Roboto Slab", serif;
 }
 
 .book_btn {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .book_btn button {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .btn {
-    font-family: 'Roboto Slab', serif;
-    font-size: 0.875rem;
-    font-weight: 300;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    color: #4386bf;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  color: #4386bf;
 }
 
 .btn_remove {
-    font-family: 'Roboto Slab', serif;
-    font-size: 0.875rem;
-        font-weight: 300;
-        border: none;
-        border-left: 2px solid #e8e8e8;
-        border-right: 2px solid #e8e8e8;
-        margin: 0.188rem 0.938rem 0.125rem 0;
-        padding: 0 0.8rem;
-        color: #4386bf;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  border: none;
+  border-left: 2px solid #e8e8e8;
+  border-right: 2px solid #e8e8e8;
+  margin: 0.188rem 0.938rem 0.125rem 0;
+  padding: 0 0.8rem;
+  color: #4386bf;
 }
 
-.book_right {
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-
-.percent_left {
-    display: flex;
-    align-items: center;
-    border-right: 2px solid #d6d3d3c2;
-    gap: 1rem;
-    padding-right: 3rem;
-}
-
-.circle_left {
-    width: 84px;
-    height: 84px;
-    position: relative;
-}
-
-.circle_outer {
-    width: 84px;
-    height: 84px;
-    border-radius: 50%;
-    padding: 10px;
-    box-shadow: 
-    6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-}
-
-.circle_inner {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 
-    inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-    -0.5px -0.5px 0 rgba(255, 255, 255, 1),
-    0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
-    0 12px 10px -10px rgba(0, 0, 0, 0.5);
-}
+ 
