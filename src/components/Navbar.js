@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './styles/Navbar.module.css';
-import images from '/'
+import user from './image/user.svg';
 
 const Navbar = () => (
   <div className={styles.nav_container}>
