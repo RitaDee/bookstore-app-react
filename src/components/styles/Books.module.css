@@ -50,3 +50,11 @@
     cursor: pointer;
     color: #4386bf;
 }
+
+.btn_remove {
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875rem;
+        font-weight: 300;
+        border: none;
+        border-left: #d6d3d3c2;
+}
