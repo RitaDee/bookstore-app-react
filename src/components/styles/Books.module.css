@@ -32,3 +32,21 @@
     color: #4386b4;
     font-family: 'Roboto Slab', serif;
 }
+
+.book_btn {
+    margin-top: 1rem;
+}
+
+.book_btn button {
+    background-color: #fff;
+}
+
+.btn {
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    color: #4386bf;
+}

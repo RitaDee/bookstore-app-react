@@ -20,9 +20,9 @@ function Book({
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.author}>{author}</p>
         <div className={styles.book_btn}>
-          <button type="button">Comments</button>
+          <button className={styles.btn} type="button">Comments</button>
           <button type="button" onClick={handleRemoveBook}>Remove</button>
-          <button type="button">Edit</button>
+          <button className={styles.btn} type="button">Edit</button>
         </div>
       </div>
     </li>
