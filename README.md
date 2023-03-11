@@ -82,16 +82,11 @@ After you're finished please remove all the comments and instructions!
 - **[Connect React and Redux]**
 - **[Connect an existing API via Redux and use the data to display something in a UI.]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- > Add a link to your deployed project. -->
-
-- Live demo link will appear when ready
+[Live Demo](https://lovely-mandazi-668f0e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,9 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 - In order to run this project you need:

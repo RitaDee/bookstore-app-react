@@ -1,21 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './styles/Navbar.module.css';
+import user from './image/user.svg';
 
 const Navbar = () => (
-  <nav>
-    <h1>Bookstore CMS</h1>
+  <div className={styles.nav_container}>
+    <nav>
+      <h1>Bookstore CMS</h1>
 
-    <ul>
-      <li>
-        <Link to="/">BOOKS</Link>
-      </li>
+      <ul>
+        <li className={styles.list}>
+          <Link className={styles.link} to="/">BOOKS</Link>
+        </li>
 
-      <li>
-        <Link to="/categories">CATEGORIES</Link>
-      </li>
+        <li className={styles.list}>
+          <Link className={styles.link} to="/categories">CATEGORIES</Link>
+        </li>
+      </ul>
 
-    </ul>
-  </nav>
+      <div className={styles.user}>
+        <div className={styles.user_min}>
+          <img src={user} alt="user-icon" />
+        </div>
+      </div>
+    </nav>
+  </div>
 );
 
 export default Navbar;
